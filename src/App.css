@@ -1,0 +1,102 @@
+
+.formLayout{
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/47/9/EMpcBC.png");
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 50px; */
+  width: 100vw;
+  /* margin:25px; */
+  align-self: center;
+}
+.formLayoutTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: flex-end;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:large;
+}
+.formLayoutBottom{
+  display:flex;
+  flex-direction:row;
+}
+.imageIcon{
+  height: 100px;
+  margin-right: 10px;
+}
+.formLayoutLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-left: 100px;
+  background-color: #b2e1f5;
+  border-radius: 25px;
+  width:70vw;
+
+}
+.formLayoutRight{
+  display: flex;
+  flex-direction: column;
+  width:25vw;
+ 
+} 
+.imageLayout{
+border-radius: 5px;
+}
+input{    
+  width: 300px;
+  height: 25px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  color:black;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+.gender
+{
+ margin-bottom: 10px;
+ width:auto;
+}
+#gender{
+  margin-left:-60px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.genderDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.button{
+  border-radius: 20px;
+  height: 50px;
+  width: 130px;
+  background-color: #090909;
+  margin-left: 0px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: black;
+  font-size: medium;
+}
+
+.span{
+  color:red;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+.paragraph{
+  margin-top: 250px;
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
